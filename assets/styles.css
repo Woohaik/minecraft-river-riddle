@@ -1,0 +1,74 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    background: rgb(126, 169, 255);
+}
+
+#canvas {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+}
+
+.texture {
+    height: 75px;
+    width: 75px;
+    background-size: contain;
+}
+
+.grass {
+    background-image: url("./textures/grass.jpg");
+}
+
+.stone {
+    background-image: url("./textures/stone.jpg");
+}
+
+.dirt {
+    background-image: url("./textures/dirt.jpg");
+}
+
+.coal {
+    background-image: url("./textures/coal.jpg");
+}
+
+.gravel {
+    background-image: url("./textures/gravel.jpg");
+}
+
+.leaves {
+    background-image: url("./textures/leaves.jpg");
+}
+
+.iron {
+    background-image: url("./textures/iron.jpg");
+}
+
+.wood {
+    background-image: url("./textures/wood.jpg");
+}
+
+.sand {
+    background-image: url("./textures/sand.jpg");
+}
+
+.water {
+    background-image: url("./textures/water.jpg");
+}
+
+
+#villager-img {
+    width: auto;
+    height: 200px;
+    position: absolute;
+    top: 0;
+}
