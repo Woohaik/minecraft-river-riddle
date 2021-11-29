@@ -65,10 +65,20 @@ body {
     background-image: url("./textures/water.jpg");
 }
 
-
-#villager-img {
+img {
     width: auto;
-    height: 200px;
+    height: 180px;
     position: absolute;
     top: 0;
+    transition: left 1s;
+}
+
+.small-image {
+    height: 100px;
+}
+
+
+.flipedImage {
+    cursor: pointer;
+    transform: rotateY(180deg);
 }

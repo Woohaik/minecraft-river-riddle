@@ -10,12 +10,18 @@
 </head>
 
 <body>
-    <div id="canvas">
-
-        
-    </div>
+    <div id="simon"></div>
+    <div id="canvas"></div>
     <img id="villager-img" src="./assets/mobs/villager.png" alt="villager">
+    <img id="herobrine-img" onclick="drawMove('herobrine')" class="flipedImage" src="./assets/mobs/herobrine.png"
+        alt="herobrine">
+    <img id="fox-img" onclick="drawMove('fox')" class="flipedImage small-image" src="./assets/mobs/fox.png" alt="fox">
+    <img id="chicken-img" onclick="drawMove('chicken')" class="flipedImage small-image" src="./assets/mobs/chicken.png"
+        alt="chicken">
+    <img id="seed-img" onclick="drawMove('seed')" class="flipedImage small-image" src="./assets/mobs/seed.png"
+        alt="seed">
 
+    <img id="boat-img" class="flipedImage small-image" src="./assets/mobs/boat.png" alt="seed">
 
     <script type="text/javascript" src="js/map.js"></script>
     <script type="text/javascript" src="js/draw.js"></script>
